@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="header">Make a Note!</div>
+        <div className="header">
+          <div className="brand">Panote</div>
+          <div className="create">create</div>
+          </div>
       </div>
     </div>
   );

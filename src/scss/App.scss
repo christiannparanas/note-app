@@ -7,13 +7,33 @@
   font-family: 'Balsamiq Sans', cursive;
 }
 
+body {
+  background-color: #f1f2f6;
+}
+
 .App {
 
   .container {
 
     .header {
-      font-size: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      font-size: 30px;
       font-weight: 800;
+      color: #666;
+
+      .brand {
+        margin-top: 6px;
+      }
+
+      .create {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #6ec2aa;
+        border-radius: 4px;
+      }
     }
   }
 }
