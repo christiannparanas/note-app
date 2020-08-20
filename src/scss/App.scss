@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Balsamiq Sans', cursive;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
 .App {
 
   .container {
+    
 
     .header {
       display: flex;
@@ -25,15 +28,43 @@ body {
 
       .brand {
         margin-top: 6px;
+        color: #666;
+        text-decoration: none;
       }
 
       .create {
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px;
         background-color: #6ec2aa;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+      }
+
+      .create:hover {
+        background-color: #41977f;
+      }
+    }
+
+    .content {
+      padding: 15px;
+
+      textarea {
+        width: 100%;
+        border: 1px solid #e3e3e3;
+        outline: 0;
+        resize: none;
+        padding: 15px;
         border-radius: 4px;
       }
+    }
+
+    .notes {
+      margin: 10px 15px;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
     }
   }
 }
